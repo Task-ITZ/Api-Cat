@@ -44,4 +44,6 @@ dependencies {
     implementation(libs.glide)
     implementation(libs.gson)
     implementation(libs.convertergson)
+    implementation(libs.dagger)
+    annotationProcessor(libs.daggercompiler)
 }

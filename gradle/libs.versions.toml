@@ -11,6 +11,8 @@ retrofit = "2.11.0"
 glide = "4.16.0"
 gson = "2.12.1"
 convertergson = "2.9.0"
+dagger = "2.28.3"
+daggercompiler = "2.28.3"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -24,6 +26,8 @@ retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = 
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 convertergson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "convertergson" }
+dagger = {group = "com.google.dagger", name = "dagger", version.ref = "dagger"}
+daggercompiler = {group = "com.google.dagger", name = "dagger-compiler", version.ref = "daggercompiler"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
